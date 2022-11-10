@@ -1,0 +1,135 @@
+html{
+    font-family: sans-serif;
+}
+body{
+    background: url(../img/gym-rutina_img.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+    background-color: #fff;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+div {
+    display: block;
+}
+
+header.main-header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+   
+.header-wrap{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0);
+}
+   
+.wrap-logo-header{
+    display: flex;
+    align-items: center;
+    flex-basis: 15%;
+}
+
+.gym-logo-header{
+    position: relative;
+    left: 2rem;
+}
+
+.wrap-nav-header{
+    display: flex;
+    align-items: center;
+    background: rgb(20, 20, 20);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+   
+ul.main-menu{
+    display: flex;
+    width: 100%;
+    padding: 0;
+}
+   
+li.menu-item{
+    margin: 1rem;
+}
+   
+li.menu-item a{
+    padding: .5rem 1rem;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+}
+   
+li.menu-item a:hover{
+    color: #cc1313;
+}
+
+.gym_tb{
+    position: absolute;
+    left: 20%;
+    top: 20%;
+}
+
+table.steelBlueCols {
+    border: 4px solid #700404;
+    background-color: #222121;
+    width: 800px;
+    height: 600px;
+    text-align: center;
+    border-collapse: collapse;
+  }
+  table.steelBlueCols td, table.steelBlueCols th {
+    border: 1px solid #3b3b3b;
+    padding: 5px 10px;
+  }
+  table.steelBlueCols tbody td {
+    font-size: 12px;
+    font-weight: bold;
+    color: #cccbcb;
+  }
+  table.steelBlueCols td:nth-child(even) {
+    background: #490202;
+  }
+  table.steelBlueCols thead {
+    background: #490202;
+    border-bottom: 10px solid #700404;
+  }
+  table.steelBlueCols thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: #cccbcb;
+    text-align: left;
+    border-left: 2px solid #700404;
+  }
+  table.steelBlueCols thead th:first-child {
+    border-left: none;
+  }
+  
+  table.steelBlueCols tfoot td {
+    font-size: 13px;
+  }
+  table.steelBlueCols tfoot .links {
+    text-align: right;
+  }
+  table.steelBlueCols tfoot .links a{
+    display: inline-block;
+    background: #000000;
+    color: #490202;
+    padding: 2px 8px;
+    border-radius: 5px;
+  }

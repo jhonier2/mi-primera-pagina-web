@@ -1,0 +1,141 @@
+html{
+    font-family: sans-serif;
+}
+body{
+    background: url(../img/gym-rutina_img.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+    background-color: #fff;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+div {
+    display: block;
+}
+
+header.main-header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+   
+.header-wrap{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0);
+}
+   
+.wrap-logo-header{
+    display: flex;
+    align-items: center;
+    flex-basis: 15%;
+}
+
+.gym-logo-header{
+    position: relative;
+    left: 2rem;
+}
+
+.wrap-nav-header{
+    display: flex;
+    align-items: center;
+    background: rgb(20, 20, 20);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+   
+ul.main-menu{
+    display: flex;
+    width: 100%;
+    padding: 0;
+}
+   
+li.menu-item{
+    margin: 1rem;
+}
+   
+li.menu-item a{
+    padding: .5rem 1rem;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+}
+   
+li.menu-item a:hover{
+    color: #cc1313;
+}
+
+.wrap{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.column-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 3rem;
+    row-gap: 1rem;
+}
+.tarjeta-vg1{
+    position: absolute;
+    bottom: 30%;
+    left: 25%;
+    background: url(../img/pull-push-leg_img.jpg) center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 400px;
+    border-radius: 6px;
+    padding: 1rem .5rem;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.tarjeta-vg2{
+    position: absolute;
+    bottom: 30%;
+    right: 30%;
+    background: url(../img/full-body_img.jpg) center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 400px;
+    border-radius: 6px;
+    padding: 1rem .5rem;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.wrap-text_tarjeta-vg{
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    padding: .5rem;
+    border-radius: 6px;
+    background: linear-gradient(to top, rgb(0 0 0 / .5), rgb(0 0 0 / .5));
+}
+
+.cta_tarjeta-vg{
+    background-color: #474643;
+    padding: .25rem 1rem;
+    border-radius: 4px;
+}
+
+.cta_tarjeta-vg a{
+    color: #fff;
+    font-weight: bold;
+}

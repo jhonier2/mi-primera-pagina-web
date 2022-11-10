@@ -1,0 +1,162 @@
+html{
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #666;
+    text-align: left;
+    background-color: #fff;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+div {
+    display: block;
+}
+
+header.main-header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+   
+.header-wrap{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0);
+}
+   
+.wrap-logo-header{
+    display: flex;
+    align-items: center;
+    flex-basis: 15%;
+}
+
+.gym-logo-header{
+    position: relative;
+    left: 2rem;
+}
+
+.wrap-nav-header{
+    display: flex;
+    align-items: center;
+    background: rgb(20, 20, 20);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+   
+ul.main-menu{
+    display: flex;
+    width: 100%;
+    padding: 0;
+}
+   
+li.menu-item{
+    margin: 1rem;
+}
+   
+li.menu-item a{
+    padding: .5rem 1rem;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+}
+   
+li.menu-item a:hover{
+    color: #cc1313;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.main-body-item{
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.main-caption {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.main-label{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-caption {
+    position: absolute;
+    color: #fff;
+    text-align: center;
+}
+
+.first-label{
+    color: #e31c25;
+    text-transform: capitalize;
+    margin: 0;
+    font-size: 1.75rem;
+}
+
+.second-label{
+    font-size: 5.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+    margin-top: 1.5rem;
+    color: #fff;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.first-btn{
+    display: inline-block;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    background-color: transparent;
+    border: 2px solid;
+
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0;
+
+    color: #fff;
+    border-color: #fff;
+
+    margin-top: 3rem;
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
